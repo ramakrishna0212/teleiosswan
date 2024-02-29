@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(247, 247, 247, 0.674);
+}
+.by{
+    font-size: x-large;
+    padding-left: 4%;
+    padding-top: 8%;
+}
+
+.BUSINESS{
+    padding-top: 11%;
+    padding-left: 38%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.matter2{
+    font-size: large;
+    padding-left: 45%;
+    padding-top: 6%;
+}
+.number{
+    font-size: medium;
+    padding-left: 45%;
+    padding-top: 3%;
+}
+.matter{
+    font-size: smaller;
+    padding-top: 3%;
+    padding-left: 17%;
+    
+}
+.mailid{
+    font-size: medium;
+    padding-left: 45%;
+}
+.bg{
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 76px 0% -27px;
+    position: fixed;
+}

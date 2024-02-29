@@ -1,0 +1,87 @@
+* {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.701);
+}
+.homepage{
+    padding-top: 8%;
+    padding-left: 14%;
+    font-size: larger;
+}
+.intro{
+    padding-left: 36%;
+    margin-top: -13%;
+    margin-bottom: -4%;
+}
+.imae{
+    padding-left: 17%;
+    padding-top: 5%;
+}
+.special{
+    padding-left: 17%;
+    font-size: 261%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.rights{
+    color: #000000d9;
+    font-size: 74%;
+    padding-left: 85%;
+    font-weight: 700;
+}
+.contact{
+    padding-top: 5%;
+    padding-left: 92%;
+    font-size: 18px;
+    text-align: end;
+}
+
+.middle {
+	position: absolute;
+    top: 96%;
+    left: 70%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+}
+
+.btn {
+	background: none;
+	border: 1px solid #000;
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	padding: 12px;
+	min-width: 150px;
+	margin: 10px;
+	cursor: pointer;
+	transition: color 0.8s linear;
+	position: relative;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	z-index: -1;
+	transition: transform 0s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.btn1::before {
+	transform: scaleX(0);
+}
+
+.btn1:hover::before {
+	transform: scaleX(1);
+}

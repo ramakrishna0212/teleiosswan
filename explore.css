@@ -1,0 +1,88 @@
+* {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.806);
+}
+.homepage{
+    padding-top: 8%;
+    padding-left: 14%;
+    font-size: larger;
+}
+.intro{
+    padding-left: 36%;
+    margin-top: -13%;
+    margin-bottom: -4%;
+}
+.imae{
+    margin-left: -2%;
+    width: 103%;
+    background-color: black;
+}
+.special{
+    padding-left: 17%;
+    font-size: 261%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.rights{
+    color: #000000d9;
+    font-size: 74%;
+    padding-left: 85%;
+    font-weight: 700;
+    padding-top: 4%;
+}
+.contact{
+    padding-top: 5%;
+    padding-left: 92%;
+    font-size: 18px;
+    text-align: end;
+    margin-bottom: 4%;
+}
+p{
+    color: white;
+    font-size: x-large;
+}
+.middle {
+    position: absolute;
+    top: 76%;
+    left: 59%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+}
+.middle2 {
+    position: absolute;
+    top: 138%;
+    left: 56%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+}
+.middle3 {
+    position: absolute;
+    top: 198%;
+    left: 59%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+}
+.middle4 {
+    position: absolute;
+    top: 262%;
+    left: 56%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	padding: 12px;
+	min-width: 150px;
+	margin: 10px;
+	cursor: pointer;
+	position: relative;
+    background: #ffffff;
+    border: solid 1px white;
+}
